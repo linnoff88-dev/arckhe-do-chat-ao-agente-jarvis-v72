@@ -1,0 +1,307 @@
+{
+  "slug": "rotina",
+  "num": 8,
+  "menu": "Rutina",
+  "titulo": "Una rutina de verdad y Jarvis en el aire",
+  "titulo_curto": "Rutina y en el aire",
+  "minutos": 15,
+  "lead": "Un asistente que no usas no sirve. En esta clase conviertes una tarea de la semana en un pedido fijo, lo usas cinco días seguidos y anotas qué mejorar. Después ves los niveles para dejarlo encendido: en tu computadora, con reinicio automático, y en un servidor alquilado, 24 horas en el aire.",
+  "objetivo": "usar un pedido fijo por cinco días seguidos y elegir dónde va a quedar encendido el asistente, desde la laptop hasta un servidor 24 horas.",
+  "competencias": [
+    "criar-rotina",
+    "melhorar-por-uso",
+    "escolher-onde-rodar"
+  ],
+  "aprende": [
+    {
+      "t": "Convertir una tarea en pedido fijo"
+    },
+    {
+      "t": "El ciclo semanal de mejora"
+    },
+    {
+      "t": "Laptop, reinicio automático o servidor"
+    },
+    {
+      "t": "La lista de tareas que lleva al nivel 3"
+    }
+  ],
+  "hero_alt": "Mañana con luz neutra: taza, agenda abierta y un celular con una lista corta de tres ítems.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Dónde vive tu Jarvis",
+      "sub": "Cuatro niveles, de la prueba al 24 horas. Haz clic en cada uno.",
+      "estilo": "escada",
+      "nos": [
+        {
+          "icone": "terminal",
+          "titulo": "Terminal",
+          "sub": "Para probar",
+          "itens": [
+            {
+              "icone": "check",
+              "t": "Pruebas y conversación"
+            }
+          ],
+          "detalhe": "Dónde terminas la clase 4: pruebas en verde y una conversación en la terminal con el modelo de prueba. Sin internet y sin clave."
+        },
+        {
+          "icone": "enviar",
+          "titulo": "Telegram en tu computadora",
+          "sub": "Para usar",
+          "itens": [
+            {
+              "icone": "chat",
+              "t": "Habla por el celular"
+            }
+          ],
+          "detalhe": "Con el token y un modelo real, conversas por el celular. Límite: cuando cierras la laptop, el asistente se duerme junto con ella."
+        },
+        {
+          "icone": "relogio",
+          "titulo": "Reinicio automático",
+          "sub": "launchd en el Mac",
+          "itens": [
+            {
+              "icone": "check",
+              "t": "Vuelve solo"
+            }
+          ],
+          "detalhe": "En el Mac, el plan usa launchd: el asistente se inicia al encender la computadora y se reinicia solo si se cae. Los registros quedan en una carpeta de logs para diagnóstico."
+        },
+        {
+          "icone": "nuvem",
+          "titulo": "Servidor (VPS)",
+          "sub": "24 horas en el aire",
+          "itens": [
+            {
+              "icone": "camadas",
+              "t": "Docker"
+            }
+          ],
+          "detalhe": "Un servidor alquilado queda encendido día y noche. El camino es el mismo: entrar por la terminal, clonar y pedirle al agente que construya. La diferencia es el empaquetado: para servidor, la página de construcción indica Docker.",
+          "forte": true
+        }
+      ],
+      "legenda": "Uno a la vez: Telegram, después reinicio automático, después servidor. Cada nivel solo cuando el anterior esté estable."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "La rutina y la mejora",
+      "sub": "Haz clic en cada etapa.",
+      "passos": [
+        {
+          "titulo": "Elegir la tarea",
+          "sub": "Del meu-jarvis.md",
+          "texto": [
+            "Toma una de las tres cosas que debe hacer cada semana, del diseño de la clase 2.",
+            "Elige una que harías de todos modos: así la semana de uso sucede."
+          ],
+          "exemplo": {
+            "rot": "Ejemplo",
+            "texto": "Empezar el día con las tres prioridades."
+          }
+        },
+        {
+          "titulo": "Volverlo pedido fijo",
+          "sub": "Una palabra lo dispara",
+          "texto": [
+            "Escribe el pedido en el AGENTS.md: cuando mandes una palabra corta, hace la tarea siempre igual.",
+            "El agendamiento automático (que mande sin que tú pidas) está en el plan de la próxima fase; por ahora quien lo dispara eres tú."
+          ],
+          "exemplo": {
+            "rot": "Pedido fijo",
+            "texto": "Cada mañana, cuando yo mande \"dia\", lista mis tres prioridades a partir de lo que te conté ayer."
+          }
+        },
+        {
+          "titulo": "Usar 5 días",
+          "sub": "Y anotar",
+          "texto": [
+            "Úsalo cinco días seguidos. Cada día, una línea: qué funcionó y qué faltó.",
+            "¿Se equivocó el tono? SOUL. ¿Olvidó algo? Memoria. ¿Hizo lo que no debía? AGENTS."
+          ],
+          "exemplo": {
+            "rot": "Anotación",
+            "texto": "Día 3: listó 5 prioridades en lugar de 3. Ajustar el AGENTS."
+          }
+        },
+        {
+          "titulo": "Ciclo semanal",
+          "sub": "Mejorar sin romper",
+          "texto": [
+            "Una vez por semana, revisa las anotaciones y el log y cambia una sola cosa. Vuelve a correr las pruebas.",
+            "No existe un asistente listo: existe el que mejora con el uso real."
+          ],
+          "exemplo": {
+            "rot": "Regla",
+            "texto": "Un cambio por semana, pruebas en verde antes y después."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos de la rutina",
+      "sub": "Cópialos a tu AGENTS.md y a tu meu-jarvis.md.",
+      "blocos": [
+        {
+          "rot": "workspace/AGENTS.md · pedido fijo",
+          "icone": "lista",
+          "conteudo": "## Pedidos fijos\n- Cuando yo mande \"dia\": lista mis tres prioridades a partir de lo que te conté ayer. Máximo tres, en viñetas cortas.\n- Cuando yo mande \"fim\": pregúntame qué terminé hoy y guárdalo en la memoria."
+        },
+        {
+          "rot": "rotina-5-dias.md",
+          "icone": "calendario",
+          "conteudo": "# Rutina: \"dia\"\n\n| Día | Funcionó | Faltó / se equivocó | Archivo a cambiar |\n|-----|-----------|----------------|-----------------|\n| 1   |           |                |                 |\n| 2   |           |                |                 |\n| 3   |           |                |                 |\n| 4   |           |                |                 |\n| 5   |           |                |                 |\n\nCambio de la semana:"
+        },
+        {
+          "rot": "meu-jarvis.md · desafío extra",
+          "icone": "fila",
+          "conteudo": "## Tareas que me gustaría mandar e irme a dormir\n1.\n2.\n3.\n4.\n5.\n(Esta lista es la entrada del nivel 3: colas.)"
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Una mañana",
+            "html": "<p><b>Tú:</b> dia</p><p><b>Jarvis:</b></p><ol><li>Cerrar el informe de ventas (es lunes).</li><li>Responder al cliente sobre el plazo.</li><li>Preparar la agenda de la reunión del jueves.</li></ol><p>Las tres vienen de lo que me contaste ayer y de la memoria.</p>"
+          },
+          {
+            "rot": "Primeros 30 días",
+            "html": "<ul><li><b>Semana 1:</b> el núcleo funcionando en tu canal principal.</li><li><b>Semana 2:</b> la memoria guardando de verdad y una o dos herramientas.</li><li><b>Semana 3:</b> encendido todo el tiempo (reinicio automático o servidor).</li><li><b>Semana 4:</b> primera ronda de mejora a partir del log y de las anotaciones.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica: una semana de uso",
+      "sub": "Ejercicio E6 y el desafío extra de la secuencia 2.",
+      "exercicios": [
+        {
+          "id": "e6",
+          "titulo": "E6 · Una rutina de verdad",
+          "min": "20 min",
+          "texto": "Convierte una de las tareas del E1 en pedido fijo en el AGENTS.md y úsalo por una semana, anotando en la tabla.",
+          "pronto": "usaste 5 días seguidos y anotaste qué mejorar.",
+          "dias": 5
+        },
+        {
+          "id": "e6b",
+          "titulo": "E6b · Un cambio",
+          "min": "15 min",
+          "texto": "Elige una línea de la tabla, cambia un solo archivo y corre las pruebas.",
+          "pronto": "las pruebas pasan y, al día siguiente, el problema anotado no se repite."
+        },
+        {
+          "id": "x1",
+          "titulo": "Desafío · La lista para dormir",
+          "min": "10 min",
+          "texto": "En el meu-jarvis.md, escribe las tareas que te gustaría mandar e irte a dormir.",
+          "pronto": "la lista tiene al menos cinco tareas concretas. Es la entrada del nivel 3."
+        }
+      ]
+    },
+    {
+      "tipo": "video",
+      "titulo": "El nivel 2 en video",
+      "sub": "El resumen de la secuencia: el INTELECTO en Telegram, con memoria y personalidad.",
+      "chave": "seq2-jarvis"
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba lo que aprendiste",
+      "sub": "La explicación aparece después de tu respuesta.",
+      "perguntas": [
+        {
+          "p": "¿Cuál es un buen pedido fijo?",
+          "opcoes": [
+            "\"Cuando yo mande 'dia', lista mis tres prioridades a partir de lo que te conté ayer.\"",
+            "\"Ayúdame con todo.\"",
+            "\"Haz lo que te parezca mejor cada mañana.\"",
+            "\"Sé proactivo.\""
+          ],
+          "certa": 0,
+          "explica": "Tiene disparador (la palabra), tarea, límite (tres) y fuente (lo que tú contaste). Se puede comprobar si lo hizo bien.",
+          "cert": true,
+          "ref": "passos"
+        },
+        {
+          "p": "Cierras la laptop y el asistente deja de responder. ¿Qué lo resuelve?",
+          "opcoes": [
+            "Cambiar de modelo.",
+            "Borrar la memoria.",
+            "Un servidor alquilado (VPS) que se queda encendido las 24 horas, con el mismo camino de construcción.",
+            "Cambiar el SOUL.md."
+          ],
+          "certa": 2,
+          "explica": "En la laptop él se duerme junto con ella. En un servidor, queda encendido día y noche; el empaquetado indicado para servidor es Docker.",
+          "ref": "diagrama"
+        },
+        {
+          "p": "El día 3 enumeró cinco prioridades en lugar de tres. ¿Dónde se ajusta?",
+          "opcoes": [
+            "En el SOUL.md, cambiando la personalidad.",
+            "En el AGENTS.md, en la regla del pedido fijo (máximo tres).",
+            "Cambiando Telegram.",
+            "Reinstalando todo."
+          ],
+          "certa": 1,
+          "explica": "Es una regla de trabajo, así que vive en el AGENTS.md. Un cambio, pruebas de nuevo, y lo verificas al día siguiente.",
+          "ref": "codigo"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "El nivel 2 en cuatro frases",
+      "itens": [
+        {
+          "t": "Siete piezas",
+          "texto": "Canal, loop con freno, identidad, cerebro, memoria, herramientas y bóveda. Si entiendes las piezas, eliges mejor y cambias sin miedo."
+        },
+        {
+          "t": "Es tuyo, en los archivos",
+          "texto": "SOUL, AGENTS, USER y MEMORY son texto. Cambias el texto, cambia el asistente."
+        },
+        {
+          "t": "Tú decides, el agente construye",
+          "texto": "Briefing + plan + pedido con pruebas. La prueba confirma, no la promesa."
+        },
+        {
+          "t": "Uso real",
+          "texto": "Un solo dueño, límites en la bóveda, un pedido fijo por una semana y una mejora a la vez."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Próximos pasos",
+      "links": [
+        {
+          "t": "Volver a la visión general de la formación Del chat al agente",
+          "href": "https://inematds.github.io/do-chat-ao-agente-v72/es/",
+          "icone": "camadas"
+        },
+        {
+          "t": "Nivel 3: diez tareas y a dormir (colas)",
+          "href": "https://inematds.github.io/do-chat-ao-agente-v72/es/aulas/filas/index.html",
+          "icone": "fila"
+        },
+        {
+          "t": "Curso INTELECTO: deploy, monitoreo y evolución",
+          "href": "https://inematds.github.io/intelecto-curso/curso/trilha6/modulo-6-2.html",
+          "icone": "nuvem"
+        },
+        {
+          "t": "Área JARVIS en Eventos",
+          "href": "https://eventos.inema.pro/jarvis/",
+          "icone": "cerebro"
+        }
+      ]
+    }
+  ]
+}
