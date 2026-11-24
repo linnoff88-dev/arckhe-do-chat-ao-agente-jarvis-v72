@@ -163,7 +163,7 @@
           "pronto": "cada \"nunca\" do desenho virou uma linha no NUNCA do AGENTS.md e o SOUL não tem a frase \"seja útil e amigável\"."
         }
       ],
-      "fonte": "Exercício original: <a href=\"https://github.com/inematds/jornada-agentes/blob/main/exercicios/02-jarvis.md\" target=\"_blank\" rel=\"noopener\">jornada-agentes/exercicios/02-jarvis.md</a>."
+      "fonte": "Exercício original: <a href=\"https://github.com/linnoff88-dev/jornada-agentes/blob/main/exercicios/02-jarvis.md\" target=\"_blank\" rel=\"noopener\">jornada-agentes/exercicios/02-jarvis.md</a>."
     },
     {
       "tipo": "quiz",
@@ -208,8 +208,8 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        { "t": "Curso INTELECTO: identidade e personalidade", "href": "https://inematds.github.io/intelecto-curso/curso/trilha2/modulo-2-1.html", "icone": "lista" },
-        { "t": "Os quatro arquivos do exemplo-jarvis", "href": "https://github.com/inematds/intelecto/tree/main/exemplo-jarvis/workspace", "icone": "pasta" }
+        { "t": "Curso INTELECTO: identidade e personalidade", "href": "https://linnoff88-dev.github.io/ "icone": "lista" },
+        { "t": "Os quatro arquivos do exemplo-jarvis", "href": "https://github.com/linnoff88-dev/intelecto/tree/main/exemplo-jarvis/workspace", "icone": "pasta" }
       ]
     }
   ]

@@ -241,9 +241,9 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        { "t": "INTELECTO: página do projeto", "href": "https://inematds.github.io/intelecto/", "icone": "cerebro" },
-        { "t": "Repositório do INTELECTO", "href": "https://github.com/inematds/intelecto", "icone": "git" },
-        { "t": "Área JARVIS no Eventos", "href": "https://eventos.inema.pro/jarvis/", "icone": "camadas" }
+        { "t": "INTELECTO: página do projeto", "href": "https://linnoff88-dev.github.io/ "icone": "cerebro" },
+        { "t": "Repositório do INTELECTO", "href": "https://github.com/linnoff88-dev/intelecto", "icone": "git" },
+        { "t": "Área JARVIS no Eventos", "href": "https://eventos.ARCKHÉ.pro/jarvis/", "icone": "camadas" }
       ]
     }
   ]

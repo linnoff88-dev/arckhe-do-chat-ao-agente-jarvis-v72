@@ -238,8 +238,8 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        { "t": "Curso INTELECTO: fundamentos de segurança para IA", "href": "https://inematds.github.io/intelecto-curso/curso/trilha3/modulo-3-1.html", "icone": "escudo" },
-        { "t": "Curso INTELECTO: prompt injection e defesas", "href": "https://inematds.github.io/intelecto-curso/curso/trilha3/modulo-3-2.html", "icone": "cadeado" }
+        { "t": "Curso INTELECTO: fundamentos de segurança para IA", "href": "https://linnoff88-dev.github.io/ "icone": "escudo" },
+        { "t": "Curso INTELECTO: prompt injection e defesas", "href": "https://linnoff88-dev.github.io/ "icone": "cadeado" }
       ]
     }
   ]

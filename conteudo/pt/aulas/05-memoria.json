@@ -212,7 +212,7 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        { "t": "Curso INTELECTO: memória e conhecimento", "href": "https://inematds.github.io/intelecto-curso/curso/trilha2/modulo-2-3.html", "icone": "memoria" },
+        { "t": "Curso INTELECTO: memória e conhecimento", "href": "https://linnoff88-dev.github.io/ "icone": "memoria" },
         { "t": "SQLite FTS5 (documentação)", "href": "https://www.sqlite.org/fts5.html", "icone": "lupa" }
       ]
     }

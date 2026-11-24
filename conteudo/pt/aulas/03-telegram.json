@@ -201,7 +201,7 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        { "t": "Curso INTELECTO: canais de comunicação", "href": "https://inematds.github.io/intelecto-curso/curso/trilha2/modulo-2-2.html", "icone": "enviar" },
+        { "t": "Curso INTELECTO: canais de comunicação", "href": "https://linnoff88-dev.github.io/ "icone": "enviar" },
         { "t": "Bots do Telegram (documentação oficial)", "href": "https://core.telegram.org/bots", "icone": "chat" }
       ]
     }

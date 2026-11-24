@@ -205,7 +205,7 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        { "t": "Curso INTELECTO: provedores de IA", "href": "https://inematds.github.io/intelecto-curso/curso/trilha4/modulo-4-1.html", "icone": "chip" },
+        { "t": "Curso INTELECTO: provedores de IA", "href": "https://linnoff88-dev.github.io/ "icone": "chip" },
         { "t": "OpenRouter", "href": "https://openrouter.ai/", "icone": "nuvem" },
         { "t": "Ollama", "href": "https://ollama.com/", "icone": "chip" }
       ]

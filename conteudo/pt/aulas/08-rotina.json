@@ -225,10 +225,10 @@
       "tipo": "links",
       "titulo": "Próximos passos",
       "links": [
-        { "t": "Voltar à visão geral da formação Do chat ao agente", "href": "https://inematds.github.io/do-chat-ao-agente-v72/", "icone": "camadas" },
-        { "t": "Degrau 3: dez tarefas e vá dormir (filas)", "href": "https://inematds.github.io/do-chat-ao-agente-v72/aulas/filas/index.html", "icone": "fila" },
-        { "t": "Curso INTELECTO: deploy, monitoramento e evolução", "href": "https://inematds.github.io/intelecto-curso/curso/trilha6/modulo-6-2.html", "icone": "nuvem" },
-        { "t": "Área JARVIS no Eventos", "href": "https://eventos.inema.pro/jarvis/", "icone": "cerebro" }
+        { "t": "Voltar à visão geral da formação Do chat ao agente", "href": "https://linnoff88-dev.github.io/ "icone": "camadas" },
+        { "t": "Degrau 3: dez tarefas e vá dormir (filas)", "href": "https://linnoff88-dev.github.io/ "icone": "fila" },
+        { "t": "Curso INTELECTO: deploy, monitoramento e evolução", "href": "https://linnoff88-dev.github.io/ "icone": "nuvem" },
+        { "t": "Área JARVIS no Eventos", "href": "https://eventos.ARCKHÉ.pro/jarvis/", "icone": "cerebro" }
       ]
     }
   ]

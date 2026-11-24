@@ -111,7 +111,7 @@
         {
           "rot": "Terminal · baixar o INTELECTO",
           "icone": "terminal",
-          "conteudo": "git clone https://github.com/inematds/intelecto.git\ncd intelecto\n# copie para cá o meu-assistente.md que a mercearia baixou"
+          "conteudo": "git clone https://github.com/linnoff88-dev/intelecto.git\ncd intelecto\n# copie para cá o meu-assistente.md que a mercearia baixou"
         },
         {
           "rot": "Pedido 1 · o plano primeiro",
@@ -226,9 +226,9 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        { "t": "A mercearia: comparação de frameworks", "href": "https://inematds.github.io/intelecto/doc/framework-comparison-pt.html", "icone": "lista" },
-        { "t": "Como construir o seu assistente", "href": "https://inematds.github.io/intelecto/doc/como-construir.html", "icone": "arquivo" },
-        { "t": "exemplo-jarvis no repositório", "href": "https://github.com/inematds/intelecto/tree/main/exemplo-jarvis", "icone": "git" }
+        { "t": "A mercearia: comparação de frameworks", "href": "https://linnoff88-dev.github.io/ "icone": "lista" },
+        { "t": "Como construir o seu assistente", "href": "https://linnoff88-dev.github.io/ "icone": "arquivo" },
+        { "t": "exemplo-jarvis no repositório", "href": "https://github.com/linnoff88-dev/intelecto/tree/main/exemplo-jarvis", "icone": "git" }
       ]
     }
   ]
