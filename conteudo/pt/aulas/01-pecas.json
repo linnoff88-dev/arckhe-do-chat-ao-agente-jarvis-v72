@@ -5,7 +5,7 @@
   "titulo": "As sete peças de um Jarvis",
   "titulo_curto": "As sete peças",
   "minutos": 15,
-  "lead": "Todo agente, do mais simples ao mais caro, tem as mesmas sete peças: uma porta, um coração, uma identidade, um cérebro, uma memória, mãos e um cofre. Quem conhece as peças escolhe melhor, gasta menos e não fica preso a um produto. O INTELECTO é o nosso exemplo: pequeno de propósito, para dar para ler.",
+  "lead": "Todo agente, do mais simples ao mais caro, tem as mesmas sete peças: uma porta, um coraçêo, uma identidade, um cérebro, uma memória, mêos e um cofre. Quem conhece as peças escolhe melhor, gasta menos e nêo fica preso a um produto. O INTELECTO é o nosso exemplo: pequeno de propósito, para dar para ler.",
   "objetivo": "explicar o caminho de uma mensagem e dizer, para cada uma das sete peças, o que ela faz e onde fica no INTELECTO.",
   "competencias": ["explicar-pecas-agente", "seguir-caminho-mensagem", "distinguir-chatbot-agente"],
   "aprende": [
@@ -14,7 +14,7 @@
     { "t": "Por que o loop com freio separa um agente de um chatbot" },
     { "t": "Como os contratos deixam trocar uma peça sem mexer no resto" }
   ],
-  "hero_alt": "Sete blocos de madeira sobre a mesa, cada um com um objeto: celular, engrenagem, cartão, chip, gaveta, chave e cadeado.",
+  "hero_alt": "Sete blocos de madeira sobre a mesa, cada um com um objeto: celular, engrenagem, cartêo, chip, gaveta, chave e cadeado.",
   "secoes": [
     {
       "tipo": "diagrama",
@@ -31,7 +31,7 @@
         {
           "icone": "relogio",
           "titulo": "Loop",
-          "sub": "O coração",
+          "sub": "O coraçêo",
           "itens": [{ "icone": "portao", "t": "Máximo de 5 rodadas" }],
           "detalhe": "Recebe a mensagem, pensa, usa uma ferramenta se precisar, olha o resultado e pensa de novo, até responder com texto. Tem freio: no máximo cinco rodadas de ferramenta por mensagem. Passou disso, ele é obrigado a responder.",
           "forte": true
@@ -60,9 +60,9 @@
         {
           "icone": "terminal",
           "titulo": "Ferramentas",
-          "sub": "As mãos",
+          "sub": "As mêos",
           "itens": [{ "icone": "arquivo", "t": "Ler e escrever arquivo" }, { "icone": "terminal", "t": "Rodar comando" }],
-          "detalhe": "Sem ferramentas ele só conversa; com elas ele faz. No núcleo: ler e escrever arquivo, listar pasta, rodar comando, salvar e buscar na memória. Cada ferramenta se descreve sozinha, e o modelo lê essa descrição para decidir usá-la."
+          "detalhe": "Sem ferramentas ele só conversa; com elas ele faz. No núcleo: ler e escrever arquivo, listar pasta, rodar comando, salvar e buscar na memória. Cada ferramenta se descreve sozinha, e o modelo lê essa descriçêo para decidir usá-la."
         },
         {
           "icone": "cadeado",
@@ -88,16 +88,16 @@
       "passos": [
         {
           "titulo": "Um dono só",
-          "sub": "O que ele não é",
+          "sub": "O que ele nêo é",
           "texto": [
-            "O INTELECTO é um assistente pessoal para um dono. Não é multiusuário, não depende de nuvem, não precisa de Docker, não tem painel web e não é caixa-preta.",
+            "O INTELECTO é um assistente pessoal para um dono. Nêo é multiusuário, nêo depende de nuvem, nêo precisa de Docker, nêo tem painel web e nêo é caixa-preta.",
             "O plano prevê umas três mil linhas e sete dependências: dá para ler."
           ],
-          "exemplo": { "rot": "Teste da caixa-preta", "texto": "Consigo explicar o que acontece entre a minha mensagem e a resposta? Se não, é caixa-preta." }
+          "exemplo": { "rot": "Teste da caixa-preta", "texto": "Consigo explicar o que acontece entre a minha mensagem e a resposta? Se nêo, é caixa-preta." }
         },
         {
           "titulo": "Loop com freio",
-          "sub": "Agente, não chatbot",
+          "sub": "Agente, nêo chatbot",
           "texto": [
             "Um chatbot responde e esquece. Um agente pensa, age com uma ferramenta, olha o resultado e pensa de novo.",
             "Sem teto, um agente pode ficar girando e gastando sem terminar. Por isso o freio de cinco rodadas."
@@ -117,8 +117,8 @@
           "titulo": "Comece pequeno",
           "sub": "O núcleo basta",
           "texto": [
-            "O guia de funcionalidades organiza tudo em oito corredores: identidade, segurança, canais, memória, automação, integrações, skills e arquitetura.",
-            "Você não precisa de tudo. Agendamento e busca na web, por exemplo, estão no plano da próxima fase."
+            "O guia de funcionalidades organiza tudo em oito corredores: identidade, segurança, canais, memória, automaçêo, integrações, skills e arquitetura.",
+            "Você nêo precisa de tudo. Agendamento e busca na web, por exemplo, estêo no plano da próxima fase."
           ],
           "exemplo": { "rot": "Montagem mínima", "texto": "Loop + um cérebro + um canal + um SOUL básico. Memória entra logo em seguida." }
         }
@@ -132,7 +132,7 @@
         {
           "rot": "exemplo-jarvis · pastas",
           "icone": "pasta",
-          "conteudo": "jarvis/\n  channels/    # a porta: terminal e Telegram\n  agent/       # o coração: loop.py e context.py\n  providers/   # o cérebro: contrato + modelo de teste\n  memory/      # a memória: SQLite com busca\n  tools/       # as mãos: arquivos, comando, memória\n  security/    # o cofre: segredos e lista de bloqueio\nworkspace/\n  SOUL.md  AGENTS.md  USER.md  MEMORY.md   # a identidade"
+          "conteudo": "jarvis/\n  channels/    # a porta: terminal e Telegram\n  agent/       # o coraçêo: loop.py e context.py\n  providers/   # o cérebro: contrato + modelo de teste\n  memory/      # a memória: SQLite com busca\n  tools/       # as mêos: arquivos, comando, memória\n  security/    # o cofre: segredos e lista de bloqueio\nworkspace/\n  SOUL.md  AGENTS.md  USER.md  MEMORY.md   # a identidade"
         },
         {
           "rot": "Minha tabela das 7 peças",
@@ -149,7 +149,7 @@
           },
           {
             "rot": "Chatbot × Jarvis",
-            "html": "<p><b>Chatbot:</b> responde, esquece quando a conversa acaba, não tem identidade, não age, não conhece você.</p><p><b>Jarvis:</b> lembra de conversas passadas, tem nome e valores escritos, usa ferramentas e conhece o seu contexto.</p>"
+            "html": "<p><b>Chatbot:</b> responde, esquece quando a conversa acaba, nêo tem identidade, nêo age, nêo conhece você.</p><p><b>Jarvis:</b> lembra de conversas passadas, tem nome e valores escritos, usa ferramentas e conhece o seu contexto.</p>"
           }
         ]
       }
@@ -164,7 +164,7 @@
           "titulo": "P1 · As 7 peças com as suas palavras",
           "min": "15 min",
           "texto": "Copie a tabela acima e preencha cada linha com uma frase sua e a pasta onde a peça fica.",
-          "pronto": "as sete linhas estão preenchidas e nenhuma frase foi copiada do texto da aula."
+          "pronto": "as sete linhas estêo preenchidas e nenhuma frase foi copiada do texto da aula."
         },
         {
           "id": "p2",
@@ -184,7 +184,7 @@
     {
       "tipo": "quiz",
       "titulo": "Teste o que aprendeu",
-      "sub": "A explicação aparece depois da sua resposta.",
+      "sub": "A explicaçêo aparece depois da sua resposta.",
       "perguntas": [
         {
           "p": "O que faz um agente deixar de ser só um chatbot?",
@@ -195,7 +195,7 @@
             "Responder mais rápido."
           ],
           "certa": 0,
-          "explica": "É o loop que transforma conversa em ação. O modelo pode ser o mesmo; o que muda é poder usar ferramentas e olhar o resultado antes de responder.",
+          "explica": "É o loop que transforma conversa em açêo. O modelo pode ser o mesmo; o que muda é poder usar ferramentas e olhar o resultado antes de responder.",
           "cert": true,
           "ref": "passos"
         },
@@ -216,7 +216,7 @@
           "opcoes": [
             "Um arquivo novo de canal que cumpre o mesmo contrato (começar, enviar, parar); o resto fica igual.",
             "Tem que reescrever o agente inteiro.",
-            "Não dá: o INTELECTO só fala Telegram.",
+            "Nêo dá: o INTELECTO só fala Telegram.",
             "Tem que trocar também de modelo."
           ],
           "certa": 0,
@@ -232,7 +232,7 @@
             "Em quatro arquivos de texto na pasta workspace."
           ],
           "certa": 3,
-          "explica": "SOUL, AGENTS, USER e MEMORY são texto simples. O agente lê os quatro a cada mensagem: mudou o texto, mudou o assistente.",
+          "explica": "SOUL, AGENTS, USER e MEMORY sêo texto simples. O agente lê os quatro a cada mensagem: mudou o texto, mudou o assistente.",
           "ref": "codigo"
         }
       ]

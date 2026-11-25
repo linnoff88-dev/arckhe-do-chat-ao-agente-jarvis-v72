@@ -5,7 +5,7 @@
   "titulo": "Desenhe o seu Jarvis antes de instalar",
   "titulo_curto": "Desenho e identidade",
   "minutos": 20,
-  "lead": "O assistente vira seu nos arquivos de texto, não no código. Antes de instalar qualquer coisa, você escreve quem ele é, o que deve e o que nunca deve fazer, e o que precisa lembrar de você. Esse desenho responde às perguntas da instalação e vira os quatro arquivos da identidade.",
+  "lead": "O assistente vira seu nos arquivos de texto, nêo no código. Antes de instalar qualquer coisa, você escreve quem ele é, o que deve e o que nunca deve fazer, e o que precisa lembrar de você. Esse desenho responde às perguntas da instalaçêo e vira os quatro arquivos da identidade.",
   "objetivo": "escrever o meu-jarvis.md e transformá-lo nos quatro arquivos da identidade: SOUL, AGENTS, USER e MEMORY.",
   "competencias": ["desenhar-assistente", "escrever-soul", "definir-limites"],
   "aprende": [
@@ -14,7 +14,7 @@
     { "t": "Diferença entre um SOUL eficaz e um fraco" },
     { "t": "Transformar uma vontade vaga num pedido concreto" }
   ],
-  "hero_alt": "Quatro folhas de papel lado a lado sobre a mesa e uma mão escrevendo numa delas.",
+  "hero_alt": "Quatro folhas de papel lado a lado sobre a mesa e uma mêo escrevendo numa delas.",
   "secoes": [
     {
       "tipo": "diagrama",
@@ -48,7 +48,7 @@
           "titulo": "USER.md",
           "sub": "Você",
           "itens": [{ "icone": "usuario", "t": "Rotina, preferências, idioma" }],
-          "detalhe": "O seu perfil: profissão, rotina, como gosta das respostas e em que língua. É um arquivo vivo: mudou de projeto, atualize."
+          "detalhe": "O seu perfil: profissêo, rotina, como gosta das respostas e em que língua. É um arquivo vivo: mudou de projeto, atualize."
         },
         {
           "icone": "memoria",
@@ -81,7 +81,7 @@
             "Um SOUL eficaz tem valores claros, tom específico com exemplo, limites explícitos e estilo de resposta definido.",
             "Um SOUL fraco diz \"seja útil e amigável\", se contradiz (formal e casual ao mesmo tempo) ou é longo demais e dilui o foco."
           ],
-          "exemplo": { "rot": "Do exemplo do repositório", "texto": "Direto e conciso. Honesto: se não sabe, diz. Quero um parceiro que discorde, não alguém que só concorda." }
+          "exemplo": { "rot": "Do exemplo do repositório", "texto": "Direto e conciso. Honesto: se nêo sabe, diz. Quero um parceiro que discorde, nêo alguém que só concorda." }
         },
         {
           "titulo": "As regras",
@@ -90,7 +90,7 @@
             "Separe em SEMPRE e NUNCA. As regras do exemplo: consultar a memória antes de responder, salvar o que aprender sobre você, perguntar quando estiver em dúvida.",
             "Para ferramentas: preferir comandos seguros, só de leitura, e recusar os destrutivos."
           ],
-          "exemplo": { "rot": "Regra do NUNCA", "texto": "Nunca apagar arquivo sem a minha confirmação. Nunca colocar senha ou chave numa resposta." }
+          "exemplo": { "rot": "Regra do NUNCA", "texto": "Nunca apagar arquivo sem a minha confirmaçêo. Nunca colocar senha ou chave numa resposta." }
         },
         {
           "titulo": "Você e os fatos",
@@ -111,12 +111,12 @@
         {
           "rot": "meu-jarvis.md",
           "icone": "arquivo",
-          "conteudo": "# Meu Jarvis\n\n## Nome e jeito de falar\nNome:\nComo fala (formal, direto, bem-humorado):\n\n## Deve fazer toda semana\n1.\n2.\n3.\n\n## Nunca deve fazer\n1.\n2.\n3.\n\n## O que precisa lembrar de mim\n- Profissão:\n- Rotina:\n- Preferências:"
+          "conteudo": "# Meu Jarvis\n\n## Nome e jeito de falar\nNome:\nComo fala (formal, direto, bem-humorado):\n\n## Deve fazer toda semana\n1.\n2.\n3.\n\n## Nunca deve fazer\n1.\n2.\n3.\n\n## O que precisa lembrar de mim\n- Profissêo:\n- Rotina:\n- Preferências:"
         },
         {
           "rot": "workspace/SOUL.md",
           "icone": "usuario",
-          "conteudo": "# Soul\n\nVocê é <NOME>, assistente pessoal de <SEU NOME>.\n\n## Personalidade\n- <tom, com um exemplo de como fala>\n- Honesto: se não sabe, diz.\n\n## Valores\n- Privacidade primeiro: nunca compartilhar meus dados.\n- <um valor inegociável seu>"
+          "conteudo": "# Soul\n\nVocê é <NOME>, assistente pessoal de <SEU NOME>.\n\n## Personalidade\n- <tom, com um exemplo de como fala>\n- Honesto: se nêo sabe, diz.\n\n## Valores\n- Privacidade primeiro: nunca compartilhar meus dados.\n- <um valor inegociável seu>"
         },
         {
           "rot": "workspace/AGENTS.md",
@@ -126,7 +126,7 @@
         {
           "rot": "workspace/USER.md e MEMORY.md",
           "icone": "memoria",
-          "conteudo": "# USER.md\n## Sobre <SEU NOME>\n- Profissão:\n- Rotina:\n- Como gosto das respostas:\n- Idioma: português (pt-BR)\n\n# MEMORY.md\n## Fatos\n- <fato que ele deve saber desde o dia 1>\n- <outro fato>"
+          "conteudo": "# USER.md\n## Sobre <SEU NOME>\n- Profissêo:\n- Rotina:\n- Como gosto das respostas:\n- Idioma: português (pt-BR)\n\n# MEMORY.md\n## Fatos\n- <fato que ele deve saber desde o dia 1>\n- <outro fato>"
         }
       ],
       "saida": {
@@ -134,7 +134,7 @@
         "abas": [
           {
             "rot": "SOUL do exemplo-jarvis",
-            "html": "<p><b>Personalidade:</b> direto e conciso, sem enrolação; proativo, sugere quando é relevante; honesto, se não sabe, diz; lembra o contexto das conversas anteriores.</p><p><b>Valores:</b> privacidade primeiro, nunca compartilhar os dados do dono; ter opinião, porque o dono quer um parceiro de discussão, não alguém que só concorda.</p>"
+            "html": "<p><b>Personalidade:</b> direto e conciso, sem enrolaçêo; proativo, sugere quando é relevante; honesto, se nêo sabe, diz; lembra o contexto das conversas anteriores.</p><p><b>Valores:</b> privacidade primeiro, nunca compartilhar os dados do dono; ter opiniêo, porque o dono quer um parceiro de discussêo, nêo alguém que só concorda.</p>"
           },
           {
             "rot": "Eficaz × fraco",
@@ -160,7 +160,7 @@
           "titulo": "E1b · Os quatro arquivos",
           "min": "25 min",
           "texto": "A partir do desenho, escreva SOUL.md, AGENTS.md, USER.md e MEMORY.md numa pasta workspace/.",
-          "pronto": "cada \"nunca\" do desenho virou uma linha no NUNCA do AGENTS.md e o SOUL não tem a frase \"seja útil e amigável\"."
+          "pronto": "cada \"nunca\" do desenho virou uma linha no NUNCA do AGENTS.md e o SOUL nêo tem a frase \"seja útil e amigável\"."
         }
       ],
       "fonte": "Exercício original: <a href=\"https://github.com/linnoff88-dev/jornada-agentes/blob/main/exercicios/02-jarvis.md\" target=\"_blank\" rel=\"noopener\">jornada-agentes/exercicios/02-jarvis.md</a>."
@@ -168,7 +168,7 @@
     {
       "tipo": "quiz",
       "titulo": "Teste o que aprendeu",
-      "sub": "A explicação aparece depois da sua resposta.",
+      "sub": "A explicaçêo aparece depois da sua resposta.",
       "perguntas": [
         {
           "p": "Qual destes trechos de SOUL.md é o mais fraco?",
@@ -176,15 +176,15 @@
             "Quero um parceiro que discorde quando eu estiver errado.",
             "Privacidade primeiro: nunca compartilhar meus dados.",
             "Seja útil e amigável.",
-            "Direto e conciso; se não sabe, diz."
+            "Direto e conciso; se nêo sabe, diz."
           ],
           "certa": 2,
-          "explica": "\"Seja útil e amigável\" é vago demais: não dá para testar e todo modelo já tenta isso. Os outros dizem um tom, um valor ou um limite concreto.",
+          "explica": "\"Seja útil e amigável\" é vago demais: nêo dá para testar e todo modelo já tenta isso. Os outros dizem um tom, um valor ou um limite concreto.",
           "cert": true,
           "ref": "passos"
         },
         {
-          "p": "\"Nunca apagar arquivo sem confirmação\" vai em qual arquivo?",
+          "p": "\"Nunca apagar arquivo sem confirmaçêo\" vai em qual arquivo?",
           "opcoes": ["MEMORY.md", "SOUL.md", "AGENTS.md", "USER.md"],
           "certa": 2,
           "explica": "AGENTS.md é o contrato de trabalho: o que fazer sempre e o que nunca fazer. O SOUL diz quem ele é; o USER, quem é você.",

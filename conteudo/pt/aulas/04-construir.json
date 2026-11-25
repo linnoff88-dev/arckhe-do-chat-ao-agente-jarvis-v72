@@ -5,16 +5,16 @@
   "titulo": "Construir sem programar: você escolhe, o agente constrói, o teste confirma",
   "titulo_curto": "Construir com testes",
   "minutos": 20,
-  "lead": "Você não escreve código. Escolhe os ingredientes numa página, como numa mercearia, exporta uma lista e pede ao Claude Code ou ao Codex para construir, seguindo o plano de obra do INTELECTO. Depois prova com os testes e com uma conversa no terminal, antes de ligar no Telegram.",
-  "objetivo": "gerar o briefing na mercearia, pedir ao agente de programação a construção com testes e provar o núcleo com os testes e uma conversa.",
+  "lead": "Você nêo escreve código. Escolhe os ingredientes numa página, como numa mercearia, exporta uma lista e pede ao Claude Code ou ao Codex para construir, seguindo o plano de obra do INTELECTO. Depois prova com os testes e com uma conversa no terminal, antes de ligar no Telegram.",
+  "objetivo": "gerar o briefing na mercearia, pedir ao agente de programaçêo a construçêo com testes e provar o núcleo com os testes e uma conversa.",
   "competencias": ["gerar-briefing", "pedir-construcao-com-testes", "verificar-por-teste"],
   "aprende": [
     { "t": "A mercearia e o briefing meu-assistente.md" },
-    { "t": "Por que a lista sozinha não basta: o plano de obra" },
-    { "t": "O pedido de construção em uma frase" },
+    { "t": "Por que a lista sozinha nêo basta: o plano de obra" },
+    { "t": "O pedido de construçêo em uma frase" },
     { "t": "Provar com os testes e com a conversa no terminal" }
   ],
-  "hero_alt": "Notebook com terminal escuro mostrando uma lista de testes com marcas verdes e mãos sobre o teclado.",
+  "hero_alt": "Notebook com terminal escuro mostrando uma lista de testes com marcas verdes e mêos sobre o teclado.",
   "secoes": [
     {
       "tipo": "diagrama",
@@ -26,14 +26,14 @@
           "titulo": "Mercearia",
           "sub": "Escolher ingredientes",
           "itens": [{ "icone": "check", "t": "Mais de 140 funcionalidades" }],
-          "detalhe": "Uma página do INTELECTO com funcionalidades tiradas de projetos abertos como OpenClaw, NanoBot e Hermes, em corredores. Cada cartão explica em uma frase o que faz. Você clica e ele vai para o carrinho."
+          "detalhe": "Uma página do INTELECTO com funcionalidades tiradas de projetos abertos como OpenClaw, NanoBot e Hermes, em corredores. Cada cartêo explica em uma frase o que faz. Você clica e ele vai para o carrinho."
         },
         {
           "icone": "arquivo",
           "titulo": "Briefing",
           "sub": "meu-assistente.md",
           "itens": [{ "icone": "arquivo", "t": "+ plano doc/intelecto.md" }],
-          "detalhe": "O botão de exportar baixa o meu-assistente.md: cada ingrediente, quem já implementa e onde está o código de referência. Ele é a lista de compras; a receita é o plano doc/intelecto.md, com os contratos de cada peça.",
+          "detalhe": "O botêo de exportar baixa o meu-assistente.md: cada ingrediente, quem já implementa e onde está o código de referência. Ele é a lista de compras; a receita é o plano doc/intelecto.md, com os contratos de cada peça.",
           "forte": true
         },
         {
@@ -41,12 +41,12 @@
           "titulo": "Agente constrói",
           "sub": "Claude Code ou Codex",
           "itens": [{ "icone": "chat", "t": "Um pedido em uma frase" }],
-          "detalhe": "Na pasta do repositório, com o briefing junto, você abre o agente e pede para construir com testes. Ele lê, planeja, escreve peça por peça e pede aprovação para executar. Você confere o que pediu e o resultado."
+          "detalhe": "Na pasta do repositório, com o briefing junto, você abre o agente e pede para construir com testes. Ele lê, planeja, escreve peça por peça e pede aprovaçêo para executar. Você confere o que pediu e o resultado."
         },
         {
           "icone": "check",
           "titulo": "Testes",
-          "sub": "Prova, não promessa",
+          "sub": "Prova, nêo promessa",
           "itens": [{ "icone": "check", "t": "9 testes no exemplo" }, { "icone": "chat", "t": "Conversa no terminal" }],
           "detalhe": "No exemplo-jarvis, um comando roda os nove testes: memória salva, busca e esquece; o loop pede uma ferramenta e responde; a lista de bloqueio barra o comando perigoso. Depois, uma conversa no terminal com um modelo de teste, sem internet e sem chave."
         },
@@ -55,7 +55,7 @@
           "titulo": "No ar",
           "sub": "Telegram + modelo real",
           "itens": [{ "icone": "cadeado", "t": "Token e chave no cofre" }],
-          "detalhe": "Com os testes verdes, você troca o modelo de teste por um real (aula 6) e liga o canal do Telegram com o token da aula 3. O plano manda o agente construir um assistente de configuração que pergunta token, modelo, nome e personalidade."
+          "detalhe": "Com os testes verdes, você troca o modelo de teste por um real (aula 6) e liga o canal do Telegram com o token da aula 3. O plano manda o agente construir um assistente de configuraçêo que pergunta token, modelo, nome e personalidade."
         }
       ],
       "legenda": "Comece pequeno: poucos ingredientes, testes passando, depois cresça. Dá para voltar à mercearia e acrescentar."
@@ -69,7 +69,7 @@
           "titulo": "Escolher pouco",
           "sub": "Mercearia",
           "texto": [
-            "Para um primeiro Jarvis, o vídeo de instalação escolheu oito: arquivo de personalidade, bot do Telegram, WhatsApp, memória com busca em SQLite, cofre de segredos cifrado, lista de comandos proibidos, agendamento e skills.",
+            "Para um primeiro Jarvis, o vídeo de instalaçêo escolheu oito: arquivo de personalidade, bot do Telegram, WhatsApp, memória com busca em SQLite, cofre de segredos cifrado, lista de comandos proibidos, agendamento e skills.",
             "Você pode começar com menos: personalidade, Telegram, memória e cofre."
           ],
           "exemplo": { "rot": "Pronto quando", "texto": "O carrinho tem de 4 a 8 itens e você sabe dizer para que serve cada um." }
@@ -79,7 +79,7 @@
           "sub": "Briefing + plano",
           "texto": [
             "Exporte como briefing para o Claude Code e baixe o <code>meu-assistente.md</code>. Clone o repositório do INTELECTO e ponha o briefing dentro da pasta.",
-            "Descoberta dos testes: a lista sozinha não basta. O que faz a construção dar certo é o ponteiro para o <code>doc/intelecto.md</code>."
+            "Descoberta dos testes: a lista sozinha nêo basta. O que faz a construçêo dar certo é o ponteiro para o <code>doc/intelecto.md</code>."
           ],
           "exemplo": { "rot": "Na pasta", "texto": "intelecto/ com doc/intelecto.md, reference-repos/ e o seu meu-assistente.md." }
         },
@@ -87,8 +87,8 @@
           "titulo": "Pedir com testes",
           "sub": "Planeje antes",
           "texto": [
-            "Primeiro peça o plano: o agente lê tudo e devolve arquivos, ordem e perguntas (Docker ou instalação direta? OpenRouter ou Ollama? qual modelo?). Responda em português.",
-            "Com o plano aprovado, peça a construção com testes. Aprove cada comando que ele quiser rodar só quando entender o que é."
+            "Primeiro peça o plano: o agente lê tudo e devolve arquivos, ordem e perguntas (Docker ou instalaçêo direta? OpenRouter ou Ollama? qual modelo?). Responda em português.",
+            "Com o plano aprovado, peça a construçêo com testes. Aprove cada comando que ele quiser rodar só quando entender o que é."
           ],
           "exemplo": { "rot": "Se ele errar", "texto": "Descreva o problema em português e peça para corrigir. Esse ciclo é normal e esperado." }
         },
@@ -97,7 +97,7 @@
           "sub": "Testes + conversa",
           "texto": [
             "Rode os testes. Depois converse no terminal: \"lembre que meu nome é ...\", e em seguida \"qual meu nome?\".",
-            "A última linha do exemplo mostra o nome gravado no banco: prova de que não é texto fixo, a memória e o loop funcionam juntos."
+            "A última linha do exemplo mostra o nome gravado no banco: prova de que nêo é texto fixo, a memória e o loop funcionam juntos."
           ],
           "exemplo": { "rot": "Pronto quando", "texto": "Todos os testes passam e o nome aparece na linha DB." }
         }
@@ -116,7 +116,7 @@
         {
           "rot": "Pedido 1 · o plano primeiro",
           "icone": "chat",
-          "conteudo": "Leia o meu-assistente.md e o plano em doc/intelecto.md. Antes de escrever código, me devolva o plano: arquivos, ordem e as decisões que dependem de mim. Use a minha identidade (SOUL, AGENTS, USER e MEMORY que estão em workspace/)."
+          "conteudo": "Leia o meu-assistente.md e o plano em doc/intelecto.md. Antes de escrever código, me devolva o plano: arquivos, ordem e as decisões que dependem de mim. Use a minha identidade (SOUL, AGENTS, USER e MEMORY que estêo em workspace/)."
         },
         {
           "rot": "Pedido 2 · construir com testes",
@@ -134,11 +134,11 @@
         "abas": [
           {
             "rot": "Saída do smoke.py",
-            "html": "<pre>USER : lembre que meu nome é Nei\nJARVIS: Seu nome é Nei.\nUSER : qual meu nome?\nJARVIS: Seu nome é Nei.\nDB   : ['Meu nome é Nei']</pre><p>A linha <b>DB</b> prova que o nome foi gravado no SQLite, não veio de texto fixo.</p>"
+            "html": "<pre>USER : lembre que meu nome é Nei\nJARVIS: Seu nome é Nei.\nUSER : qual meu nome?\nJARVIS: Seu nome é Nei.\nDB   : ['Meu nome é Nei']</pre><p>A linha <b>DB</b> prova que o nome foi gravado no SQLite, nêo veio de texto fixo.</p>"
           },
           {
             "rot": "O que os 9 testes cobrem",
-            "html": "<ul><li>Memória: salvar → buscar → esquecer.</li><li>Um round completo do loop: o modelo de teste pede uma ferramenta, o loop executa e responde.</li><li>Lista de bloqueio barra o comando perigoso e libera o seguro.</li><li>Configuração vai e volta sem perder nada.</li><li>O contexto contém o SOUL e o USER.</li></ul>"
+            "html": "<ul><li>Memória: salvar → buscar → esquecer.</li><li>Um round completo do loop: o modelo de teste pede uma ferramenta, o loop executa e responde.</li><li>Lista de bloqueio barra o comando perigoso e libera o seguro.</li><li>Configuraçêo vai e volta sem perder nada.</li><li>O contexto contém o SOUL e o USER.</li></ul>"
           }
         ]
       }
@@ -170,29 +170,29 @@
           "pronto": "os testes passam e, na conversa no terminal, ele responde com o nome e o jeito que você definiu."
         }
       ],
-      "fonte": "No exercício original o passo é <code>./start.sh</code>. No repositório de hoje o caminho é este: briefing + plano + agente constrói. O assistente de configuração é uma das peças que o plano manda construir."
+      "fonte": "No exercício original o passo é <code>./start.sh</code>. No repositório de hoje o caminho é este: briefing + plano + agente constrói. O assistente de configuraçêo é uma das peças que o plano manda construir."
     },
     {
       "tipo": "video",
-      "titulo": "A instalação em vídeo",
+      "titulo": "A instalaçêo em vídeo",
       "sub": "Da mercearia ao assistente respondendo, com o caminho inteiro na tela.",
       "chave": "intelecto-instalacao"
     },
     {
       "tipo": "quiz",
       "titulo": "Teste o que aprendeu",
-      "sub": "A explicação aparece depois da sua resposta.",
+      "sub": "A explicaçêo aparece depois da sua resposta.",
       "perguntas": [
         {
           "p": "Por que entregar ao agente o meu-assistente.md junto com o doc/intelecto.md?",
           "opcoes": [
-            "Não precisa: o briefing basta.",
-            "Porque o agente não lê arquivos .md sozinhos.",
+            "Nêo precisa: o briefing basta.",
+            "Porque o agente nêo lê arquivos .md sozinhos.",
             "Porque o doc/intelecto.md tem a senha do Telegram.",
             "Porque o briefing é a lista de compras e o plano é a receita, com os contratos que fazem cada peça encaixar."
           ],
           "certa": 3,
-          "explica": "A validação do exemplo descobriu isso: o briefing sozinho é um roteador, não uma receita. Os contratos do plano tornam cada peça implementável.",
+          "explica": "A validaçêo do exemplo descobriu isso: o briefing sozinho é um roteador, nêo uma receita. Os contratos do plano tornam cada peça implementável.",
           "cert": true,
           "ref": "passos"
         },
@@ -205,19 +205,19 @@
             "O número de arquivos criados."
           ],
           "certa": 0,
-          "explica": "Você não precisa entender cada linha; precisa do teste. A linha DB do smoke mostra que o fato foi gravado de verdade.",
+          "explica": "Você nêo precisa entender cada linha; precisa do teste. A linha DB do smoke mostra que o fato foi gravado de verdade.",
           "ref": "codigo"
         },
         {
           "p": "Qual é o jeito certo de começar?",
           "opcoes": [
             "Marcar todas as 140 funcionalidades de uma vez.",
-            "Escrever o código à mão primeiro.",
+            "Escrever o código à mêo primeiro.",
             "Poucos ingredientes, testes passando, depois crescer.",
             "Começar pelo servidor na nuvem."
           ],
           "certa": 2,
-          "explica": "Comece pequeno. A mercearia aceita voltar e acrescentar; o que não dá é depurar 40 peças ao mesmo tempo.",
+          "explica": "Comece pequeno. A mercearia aceita voltar e acrescentar; o que nêo dá é depurar 40 peças ao mesmo tempo.",
           "ref": "diagrama"
         }
       ]
@@ -226,7 +226,7 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        { "t": "A mercearia: comparação de frameworks", "href": "https://linnoff88-dev.github.io/ "icone": "lista" },
+        { "t": "A mercearia: comparaçêo de frameworks", "href": "https://linnoff88-dev.github.io/ "icone": "lista" },
         { "t": "Como construir o seu assistente", "href": "https://linnoff88-dev.github.io/ "icone": "arquivo" },
         { "t": "exemplo-jarvis no repositório", "href": "https://github.com/linnoff88-dev/intelecto/tree/main/exemplo-jarvis", "icone": "git" }
       ]

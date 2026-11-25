@@ -5,12 +5,12 @@
   "titulo": "O cérebro: nuvem ou local, decidido com os seus números",
   "titulo_curto": "Nuvem ou local",
   "minutos": 15,
-  "lead": "O modelo de IA é a peça mais fácil de trocar. Na nuvem, o OpenRouter dá acesso a mais de cem modelos com uma chave. No seu computador, o Ollama roda sem custo por mensagem e sem mandar nada para fora. A escolha não é de gosto: é uma tabela com tempo, qualidade e custo.",
+  "lead": "O modelo de IA é a peça mais fácil de trocar. Na nuvem, o OpenRouter dá acesso a mais de cem modelos com uma chave. No seu computador, o Ollama roda sem custo por mensagem e sem mandar nada para fora. A escolha nêo é de gosto: é uma tabela com tempo, qualidade e custo.",
   "objetivo": "comparar um modelo na nuvem e um local com a mesma pergunta e decidir, com os seus números, qual usar para quê.",
   "competencias": ["escolher-modelo-nuvem-local", "medir-tempo-qualidade-custo", "proteger-chave-api"],
   "aprende": [
     { "t": "O que o OpenRouter e o Ollama fazem" },
-    { "t": "Por que trocar de cérebro não muda o resto" },
+    { "t": "Por que trocar de cérebro nêo muda o resto" },
     { "t": "Montar a tabela tempo × qualidade × custo" },
     { "t": "Onde a chave da nuvem fica guardada" }
   ],
@@ -26,14 +26,14 @@
           "titulo": "Loop",
           "sub": "Pede uma resposta",
           "itens": [{ "icone": "chat", "t": "Conversa + ferramentas" }],
-          "detalhe": "O loop não sabe qual modelo está do outro lado. Ele entrega a conversa e a lista de ferramentas e espera a resposta."
+          "detalhe": "O loop nêo sabe qual modelo está do outro lado. Ele entrega a conversa e a lista de ferramentas e espera a resposta."
         },
         {
           "icone": "camadas",
           "titulo": "Provedor",
           "sub": "O contrato",
           "itens": [{ "icone": "seta", "t": "chat(mensagens, ferramentas)" }],
-          "detalhe": "O provedor é um contrato: recebe a conversa e as ferramentas, devolve a resposta. Nos testes, um provedor de mentira responde sem internet e sem custo. Trocar de cérebro é trocar de provedor na configuração.",
+          "detalhe": "O provedor é um contrato: recebe a conversa e as ferramentas, devolve a resposta. Nos testes, um provedor de mentira responde sem internet e sem custo. Trocar de cérebro é trocar de provedor na configuraçêo.",
           "forte": true
         },
         {
@@ -65,7 +65,7 @@
             "Escolha uma pergunta que você faria de verdade ao assistente, de preferência ligada a uma das tarefas do seu meu-jarvis.md.",
             "Use exatamente o mesmo texto nos dois modelos."
           ],
-          "exemplo": { "rot": "Exemplo", "texto": "Organize em três prioridades: fechar o relatório de vendas, responder dois clientes e preparar a reunião de quinta." }
+          "exemplo": { "rot": "Exemplo", "texto": "Organize em três prioridades: fechar o relatório de vendas, responder dois clientes e preparar a reuniêo de quinta." }
         },
         {
           "titulo": "Medir o tempo",
@@ -90,15 +90,15 @@
           "sub": "E decidir",
           "texto": [
             "Na nuvem, veja no painel do OpenRouter quanto a pergunta custou. No local, o custo por mensagem é zero; o custo é o computador ligado.",
-            "Escreva a decisão em uma linha: qual modelo para quê."
+            "Escreva a decisêo em uma linha: qual modelo para quê."
           ],
-          "exemplo": { "rot": "Decisão", "texto": "Rotina do dia no local; texto para cliente na nuvem." }
+          "exemplo": { "rot": "Decisêo", "texto": "Rotina do dia no local; texto para cliente na nuvem." }
         }
       ]
     },
     {
       "tipo": "codigo",
-      "titulo": "Configuração e tabela",
+      "titulo": "Configuraçêo e tabela",
       "sub": "A chave da nuvem segue a mesma regra do token: só no .env ou no cofre.",
       "blocos": [
         {
@@ -114,12 +114,12 @@
         {
           "rot": "Pedido ao agente · trocar o cérebro",
           "icone": "chat",
-          "conteudo": "Troque o provedor padrão para ollama (modelo llama3.2), mantenha o openrouter como alternativa e rode os testes de novo. Não mude nada fora da configuração."
+          "conteudo": "Troque o provedor padrêo para ollama (modelo llama3.2), mantenha o openrouter como alternativa e rode os testes de novo. Nêo mude nada fora da configuraçêo."
         },
         {
           "rot": "minha-comparacao.md",
           "icone": "lista",
-          "conteudo": "Pergunta: \n\n| Modelo | Tempo (s) | Nota 1-5 | Custo |\n|--------|-----------|----------|-------|\n| Nuvem: |           |          |       |\n| Local: |           |          | 0     |\n\nDecisão: uso ____ para ____ e ____ para ____."
+          "conteudo": "Pergunta: \n\n| Modelo | Tempo (s) | Nota 1-5 | Custo |\n|--------|-----------|----------|-------|\n| Nuvem: |           |          |       |\n| Local: |           |          | 0     |\n\nDecisêo: uso ____ para ____ e ____ para ____."
         }
       ],
       "saida": {
@@ -131,7 +131,7 @@
           },
           {
             "rot": "Quando o local ganha",
-            "html": "<ul><li>Dado sensível que não pode sair da máquina.</li><li>Muitas mensagens simples por dia, em que o custo por uso somaria.</li><li>Funcionar sem internet, ou como reserva quando a nuvem cai.</li></ul>"
+            "html": "<ul><li>Dado sensível que nêo pode sair da máquina.</li><li>Muitas mensagens simples por dia, em que o custo por uso somaria.</li><li>Funcionar sem internet, ou como reserva quando a nuvem cai.</li></ul>"
           }
         ]
       }
@@ -152,26 +152,26 @@
           "id": "e5b",
           "titulo": "E5b · A chave guardada",
           "min": "5 min",
-          "texto": "Confira que a chave do OpenRouter está só no .env (ou no cofre) e que o .env não aparece no git status.",
-          "pronto": "a busca pela chave fora do .env não acha nada."
+          "texto": "Confira que a chave do OpenRouter está só no .env (ou no cofre) e que o .env nêo aparece no git status.",
+          "pronto": "a busca pela chave fora do .env nêo acha nada."
         }
       ]
     },
     {
       "tipo": "quiz",
       "titulo": "Teste o que aprendeu",
-      "sub": "A explicação aparece depois da sua resposta.",
+      "sub": "A explicaçêo aparece depois da sua resposta.",
       "perguntas": [
         {
           "p": "Quando faz sentido um modelo local (Ollama)?",
           "opcoes": [
-            "Nunca, o Telegram não aceita.",
+            "Nunca, o Telegram nêo aceita.",
             "Sempre, porque é mais inteligente.",
-            "Quando o computador aguenta e os seus números de tempo, qualidade e custo mostram que vale, ou quando o dado não pode sair.",
+            "Quando o computador aguenta e os seus números de tempo, qualidade e custo mostram que vale, ou quando o dado nêo pode sair.",
             "Só de madrugada."
           ],
           "certa": 2,
-          "explica": "A escolha é medida: mesma pergunta nos dois, tabela, decisão. Privacidade é o outro motivo forte: no local nada sai da máquina.",
+          "explica": "A escolha é medida: mesma pergunta nos dois, tabela, decisêo. Privacidade é o outro motivo forte: no local nada sai da máquina.",
           "cert": true,
           "ref": "passos"
         },
@@ -181,10 +181,10 @@
             "Só o canal.",
             "Só a memória.",
             "Tudo: canal e memória dependem do modelo.",
-            "Nada: o provedor é um contrato, e o resto do agente não sabe qual modelo está respondendo."
+            "Nada: o provedor é um contrato, e o resto do agente nêo sabe qual modelo está respondendo."
           ],
           "certa": 3,
-          "explica": "O loop chama o provedor pelo contrato. Trocar de cérebro é configuração; os testes rodam iguais.",
+          "explica": "O loop chama o provedor pelo contrato. Trocar de cérebro é configuraçêo; os testes rodam iguais.",
           "ref": "diagrama"
         },
         {
@@ -192,11 +192,11 @@
           "opcoes": [
             "Para gastar menos créditos.",
             "Porque a primeira chamada costuma ser mais lenta enquanto o modelo carrega.",
-            "Não precisa.",
+            "Nêo precisa.",
             "Porque a primeira resposta sempre está errada."
           ],
           "certa": 1,
-          "explica": "Comparação justa mede o uso normal. A primeira chamada inclui carregar o modelo na memória.",
+          "explica": "Comparaçêo justa mede o uso normal. A primeira chamada inclui carregar o modelo na memória.",
           "ref": "passos"
         }
       ]

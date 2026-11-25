@@ -5,7 +5,7 @@
   "nome": "O seu Jarvis",
   "sub": "Degrau 2 · Do chat ao agente",
   "volta": {
-    "t": "Visão geral da formação",
+    "t": "Visêo geral da formaçêo",
     "href": "https://linnoff88-dev.github.io/
   },
   "lado_card": {
@@ -15,7 +15,7 @@
     "link": "Abrir a lista da sequência 2",
     "href": "https://github.com/linnoff88-dev/jornada-agentes/blob/main/exercicios/02-jarvis.md", "href_en": "https://github.com/linnoff88-dev/jornada-agentes/blob/main/exercicios/en/02-jarvis.md", "href_es": "https://github.com/linnoff88-dev/jornada-agentes/blob/main/exercicios/es/02-jarvis.md"
   },
-  "rodape": "ARCKHÉ AI · conteúdo aberto e gratuito · formato ARCKHÉ Learning v7.2 · <a href=\"https://linnoff88-dev.github.io/ chat ao agente: visão geral</a> · <a href=\"https://eventos.ARCKHÉ.pro/jarvis/\">eventos.ARCKHÉ.pro/jarvis</a> · <a href=\"https://linnoff88-dev.github.io/ · <a href=\"https://ARCKHÉ AI/\">ARCKHÉ AI</a> · <a href=\"https://www.ARCKHÉ AI/cursos/325-do-chat-ao-agente-degrau-2-o-seu-jarvis-com-memoria-no-telegram-intelecto/\">Ficha completa deste curso no ARCKHÉ AI</a> · <a href=\"https://www.ARCKHÉ AI/aprender-inteligencia-artificial/\">Guia: como aprender inteligência artificial</a>",
+  "rodape": "ARCKHÉ AI · conteúdo aberto e gratuito · formato ARCKHÉ Learning v7.2 · <a href=\"https://linnoff88-dev.github.io/ chat ao agente: visêo geral</a> · <a href=\"https://eventos.ARCKHÉ.pro/jarvis/\">eventos.ARCKHÉ.pro/jarvis</a> · <a href=\"https://linnoff88-dev.github.io/ · <a href=\"https://ARCKHÉ AI/\">ARCKHÉ AI</a> · <a href=\"https://www.ARCKHÉ AI/cursos/325-do-chat-ao-agente-degrau-2-o-seu-jarvis-com-memoria-no-telegram-intelecto/\">Ficha completa deste curso no ARCKHÉ AI</a> · <a href=\"https://www.ARCKHÉ AI/aprender-inteligencia-artificial/\">Guia: como aprender inteligência artificial</a>",
   "videos": {
     "intelecto-estrutura": {
       "titulo": "INTELECTO: as 7 peças de um agente de IA",
@@ -42,7 +42,7 @@
       "pagina": "https://linnoff88-dev.github.io/ "idiomas": {"en": {"vtt": "assets/vtt/seq2-jarvis-en.vtt", "pagina": "https://linnoff88-dev.github.io/ "es": {"vtt": "assets/vtt/seq2-jarvis-es.vtt", "pagina": "https://linnoff88-dev.github.io/
     },
     "jornada-ia": {
-      "titulo": "Do chat ao agente: a visão geral",
+      "titulo": "Do chat ao agente: a visêo geral",
       "duracao": "2 min 27 s",
       "mp4": "https://github.com/linnoff88-dev/jornada-agentes/releases/download/video-v2.0.0/jornada-jornada-ia-16x9.mp4",
       "vtt": "assets/vtt/jornada-ia.vtt",
@@ -51,12 +51,12 @@
     }
   },
   "inicio": {
-    "kicker": "Curso · degrau 2 da formação Do chat ao agente · 8 aulas",
+    "kicker": "Curso · degrau 2 da formaçêo Do chat ao agente · 8 aulas",
     "titulo": "O seu Jarvis: um assistente com a memória e a personalidade que você definir",
-    "lead": "Você entende as sete peças de um assistente de IA, escreve quem ele é em quatro arquivos de texto, pede a um agente de programação para construir o núcleo com testes e liga no Telegram. Sem saber programar: você decide, o agente constrói e o teste confirma.",
+    "lead": "Você entende as sete peças de um assistente de IA, escreve quem ele é em quatro arquivos de texto, pede a um agente de programaçêo para construir o núcleo com testes e liga no Telegram. Sem saber programar: você decide, o agente constrói e o teste confirma.",
     "cta": "Começar pela aula 1",
     "cta2": {
-      "t": "Ver a visão geral da formação",
+      "t": "Ver a visêo geral da formaçêo",
       "href": "https://linnoff88-dev.github.io/
     },
     "capa_alt": "Mesa escura com celular aberto numa conversa, notebook com terminal e caderno: o assistente pessoal construído por você.",
@@ -79,14 +79,14 @@
       }
     ],
     "aulas_titulo": "As aulas",
-    "aulas_sub": "Este é o aprofundamento do degrau 2. A visão geral dos quatro degraus está no curso Do chat ao agente.",
+    "aulas_sub": "Este é o aprofundamento do degrau 2. A visêo geral dos quatro degraus está no curso Do chat ao agente.",
     "blocos": [
       {
         "t": "Para quem é",
         "itens": [
-          "Quem já fez o degrau 1 (terminal, pastas e .env) e quer um assistente próprio, não um site de chat.",
+          "Quem já fez o degrau 1 (terminal, pastas e .env) e quer um assistente próprio, nêo um site de chat.",
           "Quem quer entender o que tem dentro de um agente antes de confiar a ele a sua rotina.",
-          "Quem não programa, mas topa pedir a um agente de programação e conferir pelos testes."
+          "Quem nêo programa, mas topa pedir a um agente de programaçêo e conferir pelos testes."
         ]
       },
       {
@@ -114,7 +114,7 @@
     "dg_dica": "Clique em cada bloco do diagrama para ver o que ele faz.",
     "copiar": "Copiar",
     "copiado": "Copiado",
-    "selo_simulacao": "Simulação: exemplo ilustrativo",
+    "selo_simulacao": "Simulaçêo: exemplo ilustrativo",
     "selo_real": "Exemplo do repositório",
     "pronto_quando": "Pronto quando:",
     "fiz": "Fiz este exercício",
@@ -123,8 +123,8 @@
     "de": "de",
     "cert_tag": "competência",
     "correto": "Correto",
-    "errado": "Não é essa",
-    "quiz_aguarda": "Escolha uma alternativa. A explicação aparece depois da sua tentativa.",
+    "errado": "Nêo é essa",
+    "quiz_aguarda": "Escolha uma alternativa. A explicaçêo aparece depois da sua tentativa.",
     "proxima_pergunta": "Próxima pergunta",
     "quiz_ver": "Ver resultado",
     "quiz_fim": "Teste concluído",
@@ -151,7 +151,7 @@
     "baixar_ics": "Baixar para o calendário (.ics)",
     "ind_estudo": "Estudo (aulas)",
     "ind_pratica": "Prática declarada",
-    "ind_nota": "Prática = exercícios que você marcou como feitos. A comprovação vem na prova da certificação.",
+    "ind_nota": "Prática = exercícios que você marcou como feitos. A comprovaçêo vem na prova da certificaçêo.",
     "estudo": {
       "titulo": "Seu estudo",
       "continuar": "Continuar de onde parei",
@@ -164,7 +164,7 @@
       "notas": "Minhas anotações",
       "dados": "Copiar meus dados",
       "sem_testes": "Nenhum teste feito ainda. O teste fica no fim de cada aula.",
-      "nao_fez": "teste ainda não feito",
+      "nao_fez": "teste ainda nêo feito",
       "ultimo": "Último",
       "melhor": "Melhor",
       "tentativas": "tentativas",
@@ -173,21 +173,21 @@
       "rever": "Para rever",
       "resposta": "Resposta certa:",
       "ir_teste": "Refazer o teste",
-      "sem_notas": "Nenhuma anotação ainda. Na aula, selecione um trecho do texto e toque em Marcar ou Anotar.",
+      "sem_notas": "Nenhuma anotaçêo ainda. Na aula, selecione um trecho do texto e toque em Marcar ou Anotar.",
       "so_marcado": "(só marcado)",
       "marcar": "Marcar",
       "anotar": "Anotar",
       "salvar": "Salvar",
       "apagar": "Apagar marca",
       "fechar": "Fechar",
-      "nota_ph": "Escreva sua anotação sobre este trecho…",
+      "nota_ph": "Escreva sua anotaçêo sobre este trecho…",
       "um_bloco": "Marque dentro de um parágrafo só.",
-      "nao_marca": "Este trecho não pode ser marcado.",
-      "dados_exp": "Seu progresso, suas anotações e as notas dos testes ficam só neste navegador. Baixe uma cópia (.json) para guardar ou para continuar em outro computador ou navegador; lá, carregue a cópia. Carregar soma com o que já existe e não apaga nada.",
+      "nao_marca": "Este trecho nêo pode ser marcado.",
+      "dados_exp": "Seu progresso, suas anotações e as notas dos testes ficam só neste navegador. Baixe uma cópia (.json) para guardar ou para continuar em outro computador ou navegador; lá, carregue a cópia. Carregar soma com o que já existe e nêo apaga nada.",
       "exportar": "Baixar cópia",
       "importar": "Carregar cópia",
       "import_ok": "Cópia carregada ({n} itens). Atualizando a página…",
-      "import_erro": "Arquivo não reconhecido. Nada foi alterado.",
+      "import_erro": "Arquivo nêo reconhecido. Nada foi alterado.",
       "import_outro": "Esta cópia é de outro curso. Nada foi alterado.",
       "export_ok": "Cópia baixada."
     }

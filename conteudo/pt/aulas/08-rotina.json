@@ -5,7 +5,7 @@
   "titulo": "Uma rotina de verdade e o Jarvis no ar",
   "titulo_curto": "Rotina e no ar",
   "minutos": 15,
-  "lead": "Assistente que você não usa não serve. Nesta aula você transforma uma tarefa da semana em pedido fixo, usa cinco dias seguidos e anota o que melhorar. Depois vê os degraus para deixá-lo ligado: no seu computador, com reinício automático, e num servidor alugado, 24 horas no ar.",
+  "lead": "Assistente que você nêo usa nêo serve. Nesta aula você transforma uma tarefa da semana em pedido fixo, usa cinco dias seguidos e anota o que melhorar. Depois vê os degraus para deixá-lo ligado: no seu computador, com reinício automático, e num servidor alugado, 24 horas no ar.",
   "objetivo": "usar um pedido fixo por cinco dias seguidos e escolher onde o assistente vai ficar ligado, do notebook a um servidor 24 horas.",
   "competencias": ["criar-rotina", "melhorar-por-uso", "escolher-onde-rodar"],
   "aprende": [
@@ -14,7 +14,7 @@
     { "t": "Notebook, reinício automático ou servidor" },
     { "t": "A lista de tarefas que leva ao degrau 3" }
   ],
-  "hero_alt": "Manhã com luz neutra: xícara, agenda aberta e um celular com uma lista curta de três itens.",
+  "hero_alt": "Manhê com luz neutra: xícara, agenda aberta e um celular com uma lista curta de três itens.",
   "secoes": [
     {
       "tipo": "diagrama",
@@ -48,7 +48,7 @@
           "titulo": "Servidor (VPS)",
           "sub": "24 horas no ar",
           "itens": [{ "icone": "camadas", "t": "Docker" }],
-          "detalhe": "Um servidor alugado fica ligado dia e noite. O caminho é o mesmo: entrar pelo terminal, clonar e pedir ao agente para construir. A diferença é o empacotamento: para servidor, a página de construção indica o Docker.",
+          "detalhe": "Um servidor alugado fica ligado dia e noite. O caminho é o mesmo: entrar pelo terminal, clonar e pedir ao agente para construir. A diferença é o empacotamento: para servidor, a página de construçêo indica o Docker.",
           "forte": true
         }
       ],
@@ -75,23 +75,23 @@
             "Escreva o pedido no AGENTS.md: quando você mandar uma palavra curta, ele faz a tarefa do mesmo jeito.",
             "Agendamento sozinho (mandar sem você pedir) está no plano da próxima fase; por enquanto quem dispara é você."
           ],
-          "exemplo": { "rot": "Pedido fixo", "texto": "Toda manhã, quando eu mandar \"dia\", liste as minhas três prioridades a partir do que eu te contei ontem." }
+          "exemplo": { "rot": "Pedido fixo", "texto": "Toda manhê, quando eu mandar \"dia\", liste as minhas três prioridades a partir do que eu te contei ontem." }
         },
         {
           "titulo": "Usar 5 dias",
           "sub": "E anotar",
           "texto": [
             "Use cinco dias seguidos. Cada dia, uma linha: o que funcionou e o que faltou.",
-            "Errou o tom? SOUL. Esqueceu algo? Memória. Fez o que não devia? AGENTS."
+            "Errou o tom? SOUL. Esqueceu algo? Memória. Fez o que nêo devia? AGENTS."
           ],
-          "exemplo": { "rot": "Anotação", "texto": "Dia 3: listou 5 prioridades em vez de 3. Ajustar o AGENTS." }
+          "exemplo": { "rot": "Anotaçêo", "texto": "Dia 3: listou 5 prioridades em vez de 3. Ajustar o AGENTS." }
         },
         {
           "titulo": "Ciclo semanal",
           "sub": "Melhorar sem quebrar",
           "texto": [
             "Uma vez por semana, olhe as anotações e o log e mude uma coisa só. Rode os testes de novo.",
-            "Não existe assistente pronto: existe o que melhora com uso real."
+            "Nêo existe assistente pronto: existe o que melhora com uso real."
           ],
           "exemplo": { "rot": "Regra", "texto": "Uma mudança por semana, testes verdes antes e depois." }
         }
@@ -122,8 +122,8 @@
         "selo": "simulacao",
         "abas": [
           {
-            "rot": "Uma manhã",
-            "html": "<p><b>Você:</b> dia</p><p><b>Jarvis:</b></p><ol><li>Fechar o relatório de vendas (é segunda).</li><li>Responder o cliente sobre o prazo.</li><li>Preparar a pauta da reunião de quinta.</li></ol><p>As três vêm do que você contou ontem e da memória.</p>"
+            "rot": "Uma manhê",
+            "html": "<p><b>Você:</b> dia</p><p><b>Jarvis:</b></p><ol><li>Fechar o relatório de vendas (é segunda).</li><li>Responder o cliente sobre o prazo.</li><li>Preparar a pauta da reuniêo de quinta.</li></ol><p>As três vêm do que você contou ontem e da memória.</p>"
           },
           {
             "rot": "Primeiros 30 dias",
@@ -150,7 +150,7 @@
           "titulo": "E6b · Uma mudança",
           "min": "15 min",
           "texto": "Escolha uma linha da tabela, mude um arquivo só e rode os testes.",
-          "pronto": "os testes passam e, no dia seguinte, o problema anotado não se repete."
+          "pronto": "os testes passam e, no dia seguinte, o problema anotado nêo se repete."
         },
         {
           "id": "x1",
@@ -170,14 +170,14 @@
     {
       "tipo": "quiz",
       "titulo": "Teste o que aprendeu",
-      "sub": "A explicação aparece depois da sua resposta.",
+      "sub": "A explicaçêo aparece depois da sua resposta.",
       "perguntas": [
         {
           "p": "Qual é um bom pedido fixo?",
           "opcoes": [
             "\"Quando eu mandar 'dia', liste as minhas três prioridades a partir do que eu te contei ontem.\"",
             "\"Me ajude com tudo.\"",
-            "\"Faça o que achar melhor toda manhã.\"",
+            "\"Faça o que achar melhor toda manhê.\"",
             "\"Seja proativo.\""
           ],
           "certa": 0,
@@ -190,7 +190,7 @@
           "opcoes": [
             "Trocar de modelo.",
             "Apagar a memória.",
-            "Um servidor alugado (VPS) que fica ligado 24 horas, com o mesmo caminho de construção.",
+            "Um servidor alugado (VPS) que fica ligado 24 horas, com o mesmo caminho de construçêo.",
             "Mudar o SOUL.md."
           ],
           "certa": 2,
@@ -206,7 +206,7 @@
             "Reinstalando tudo."
           ],
           "certa": 1,
-          "explica": "É regra de trabalho, então mora no AGENTS.md. Uma mudança, testes de novo, e confere no dia seguinte.",
+          "explica": "É regra de trabalho, entêo mora no AGENTS.md. Uma mudança, testes de novo, e confere no dia seguinte.",
           "ref": "codigo"
         }
       ]
@@ -216,8 +216,8 @@
       "titulo": "O degrau 2 em quatro frases",
       "itens": [
         { "t": "Sete peças", "texto": "Canal, loop com freio, identidade, cérebro, memória, ferramentas e cofre. Entendeu as peças, escolhe melhor e troca sem medo." },
-        { "t": "É seu nos arquivos", "texto": "SOUL, AGENTS, USER e MEMORY são texto. Mudou o texto, mudou o assistente." },
-        { "t": "Você decide, o agente constrói", "texto": "Briefing + plano + pedido com testes. O teste confirma, não a promessa." },
+        { "t": "É seu nos arquivos", "texto": "SOUL, AGENTS, USER e MEMORY sêo texto. Mudou o texto, mudou o assistente." },
+        { "t": "Você decide, o agente constrói", "texto": "Briefing + plano + pedido com testes. O teste confirma, nêo a promessa." },
         { "t": "Uso real", "texto": "Um dono só, limites no cofre, um pedido fixo por uma semana e uma melhoria por vez." }
       ]
     },
@@ -225,9 +225,9 @@
       "tipo": "links",
       "titulo": "Próximos passos",
       "links": [
-        { "t": "Voltar à visão geral da formação Do chat ao agente", "href": "https://linnoff88-dev.github.io/ "icone": "camadas" },
+        { "t": "Voltar à visêo geral da formaçêo Do chat ao agente", "href": "https://linnoff88-dev.github.io/ "icone": "camadas" },
         { "t": "Degrau 3: dez tarefas e vá dormir (filas)", "href": "https://linnoff88-dev.github.io/ "icone": "fila" },
-        { "t": "Curso INTELECTO: deploy, monitoramento e evolução", "href": "https://linnoff88-dev.github.io/ "icone": "nuvem" },
+        { "t": "Curso INTELECTO: deploy, monitoramento e evoluçêo", "href": "https://linnoff88-dev.github.io/ "icone": "nuvem" },
         { "t": "Área JARVIS no Eventos", "href": "https://eventos.ARCKHÉ.pro/jarvis/", "icone": "cerebro" }
       ]
     }
